@@ -14,12 +14,12 @@ export default function Footer() {
               <span className="text-white  font-display text-2xl tracking-widest">SURF</span>
             </div>
             <p className="text-white/45 text-sm leading-relaxed">
-              La tienda de surf mas completa de la costa peruana, ubicada en el corazon de Punta Hermosa.
+              La tienda de surf más completa de la costa peruana, ubicada en el corazón de Punta Hermosa.
             </p>
           </div>
 
           <div>
-            <h6 className="text-white/35 font-bold text-xs uppercase tracking-[3px] mb-5">Navegacion</h6>
+            <h6 className="text-white/35 font-bold text-xs uppercase tracking-[3px] mb-5">Navegación</h6>
             <ul className="space-y-3 text-sm">
               {[
                 { to: '/', label: 'Inicio' },
@@ -40,7 +40,7 @@ export default function Footer() {
             <h6 className="text-white/35 font-bold text-xs uppercase tracking-[3px] mb-5">Contacto</h6>
             <address className="not-italic text-sm text-white/55 space-y-2">
               <p>Av. Principal 123, Punta Hermosa</p>
-              <p>Lima - Peru</p>
+              <p>Lima - Perú</p>
               <p>info@perusurf.pe</p>
               <p>+51 987 654 321</p>
             </address>
@@ -50,7 +50,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-6 text-center">
           <p className="text-white/25 text-xs tracking-wider">
-            Estudiante de Ingenieria Sergio Davila - Proyecto PC3 JS Avanzado 2026
+            Estudiante de Ingeniería Sergio Dávila - Proyecto PC3 JS Avanzado 2026
           </p>
         </div>
       </div>

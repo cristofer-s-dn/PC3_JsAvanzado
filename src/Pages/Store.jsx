@@ -40,7 +40,7 @@ export default function Store() {
         style={{ background: 'linear-gradient(135deg, #001233 0%, #0A2239 60%, #176087 100%)' }}
       >
         <h1 className="font-display text-5xl md:text-6xl text-white tracking-widest mb-3">
-          CATALOGO DE PRODUCTOS
+          CATÁLOGO DE PRODUCTOS
         </h1>
         <p className="text-pacific">Equipamiento de surf de primera calidad en Punta Hermosa</p>
       </div>
@@ -80,7 +80,7 @@ export default function Store() {
 
         {error && (
           <div className="bg-red-50 border border-red-200 rounded-xl p-6 text-center">
-            <p className="font-bold text-red-600 mb-1">Error de conexion</p>
+            <p className="font-bold text-red-600 mb-1">Error de conexión</p>
             <p className="text-red-500 text-sm">{error}</p>
           </div>
         )}
@@ -89,7 +89,7 @@ export default function Store() {
           <>
             {productosFiltrados.length === 0 ? (
               <div className="text-center py-24 text-gray-400">
-                No se encontraron productos para la seleccion actual.
+                No se encontraron productos para la selección actual.
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -109,7 +109,7 @@ export default function Store() {
                       </span>
                       {producto.stock <= 3 && producto.stock > 0 && (
                         <span className="absolute top-3 right-3 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
-                          Ultimas unidades
+                          Últimas unidades
                         </span>
                       )}
                     </div>

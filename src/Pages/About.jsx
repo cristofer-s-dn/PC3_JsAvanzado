@@ -1,8 +1,8 @@
 const STATS = [
-  { valor: '10+', etiqueta: 'Anos de experiencia'        },
+  { valor: '10+', etiqueta: 'Años de experiencia'        },
   { valor: '500+', etiqueta: 'Surfistas equipados'        },
   { valor: '100+', etiqueta: 'Productos disponibles'      },
-  { valor: '1',    etiqueta: 'Ubicacion en Punta Hermosa' },
+  { valor: '1',    etiqueta: 'Ubicación en Punta Hermosa' },
 ]
 
 const VALORES = [
@@ -11,8 +11,8 @@ const VALORES = [
     descripcion: 'Solo trabajamos con las mejores marcas de surf del mundo para garantizar tu rendimiento en el agua.',
   },
   {
-    titulo:      'PASION',
-    descripcion: 'Somos surfistas que entienden exactamente lo que necesitas dentro y fuera del Pacifico.',
+    titulo:      'PASIÓN',
+    descripcion: 'Somos surfistas que entienden exactamente lo que necesitas dentro y fuera del Pacífico.',
   },
   {
     titulo:      'COMUNIDAD',
@@ -29,7 +29,7 @@ export default function About() {
       >
         <h1 className="font-display text-6xl text-white tracking-widest mb-4">NOSOTROS</h1>
         <p className="text-pacific max-w-xl mx-auto text-lg">
-          La tienda de surf mas completa de Punta Hermosa, Lima - Peru.
+          La tienda de surf más completa de Punta Hermosa, Lima - Perú.
         </p>
       </div>
 
@@ -38,13 +38,13 @@ export default function About() {
           <div>
             <h2 className="font-display text-4xl text-prussian tracking-widest mb-6">NUESTRA HISTORIA</h2>
             <p className="text-gray-500 mb-4 leading-relaxed">
-              PERUSURF nace en el corazon de Punta Hermosa, uno de los mejores destinos de surf del Peru y
-              America Latina. Fundada por surfistas apasionados, nuestra mision desde el primer dia ha sido
+              PERUSURF nace en el corazón de Punta Hermosa, uno de los mejores destinos de surf del Perú y
+              América Latina. Fundada por surfistas apasionados, nuestra misión desde el primer día ha sido
               ofrecer el mejor equipamiento para que cada ola sea una experiencia inolvidable.
             </p>
             <p className="text-gray-500 leading-relaxed">
-              Contamos con tablas para todos los niveles, trajes de neopreno especializados para el frio del
-              Pacifico y una amplia variedad de accesorios seleccionados por nuestro equipo de expertos.
+              Contamos con tablas para todos los niveles, trajes de neopreno especializados para el frío del
+              Pacífico y una amplia variedad de accesorios seleccionados por nuestro equipo de expertos.
             </p>
           </div>
           <div

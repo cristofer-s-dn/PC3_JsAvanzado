@@ -78,8 +78,8 @@ export default function NotFound() {
           OLA NO ENCONTRADA
         </h2>
         <p className="text-white/55 text-sm max-w-xs leading-relaxed mb-10">
-          Parece que esta pagina se fue con la marea.<br />
-          Vuelve al lineup y encuentra tu proxima ola.
+          Parece que esta página se fue con la marea.<br />
+          Vuelve al lineup y encuentra tu próxima ola.
         </p>
 
         <Link

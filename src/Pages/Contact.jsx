@@ -8,10 +8,10 @@ const CAMPOS_INICIALES = {
 }
 
 const INFO = [
-  { etiqueta: 'Direccion', valor: 'Av. Principal 123, Punta Hermosa, Lima - Peru' },
+  { etiqueta: 'Dirección', valor: 'Av. Principal 123, Punta Hermosa, Lima - Perú' },
   { etiqueta: 'Correo',    valor: 'info@perusurf.pe'                               },
-  { etiqueta: 'Telefono',  valor: '+51 987 654 321'                                },
-  { etiqueta: 'Horario',   valor: 'Lunes a Sabado: 8am - 7pm'                     },
+  { etiqueta: 'Teléfono',  valor: '+51 987 654 321'                                },
+  { etiqueta: 'Horario',   valor: 'Lunes a Sábado: 8am - 7pm'                     },
 ]
 
 export default function Contact() {
@@ -29,7 +29,7 @@ export default function Contact() {
     const nuevo = {}
     if (!campos.nombre.trim())  nuevo.nombre  = 'El nombre es obligatorio.'
     if (!campos.correo.trim())  nuevo.correo  = 'El correo es obligatorio.'
-    else if (!/\S+@\S+\.\S+/.test(campos.correo)) nuevo.correo = 'Ingresa un correo valido.'
+    else if (!/\S+@\S+\.\S+/.test(campos.correo)) nuevo.correo = 'Ingresa un correo válido.'
     if (!campos.asunto.trim())  nuevo.asunto  = 'El asunto es obligatorio.'
     if (!campos.mensaje.trim()) nuevo.mensaje = 'El mensaje es obligatorio.'
     return nuevo
@@ -61,8 +61,8 @@ export default function Contact() {
         className="py-20 text-center px-4"
         style={{ background: 'linear-gradient(135deg, #001233 0%, #0A2239 60%, #176087 100%)' }}
       >
-        <h1 className="font-display text-5xl md:text-6xl text-white tracking-widest mb-3">CONTACTENOS</h1>
-        <p className="text-pacific">Estamos en Punta Hermosa, Lima - Peru</p>
+        <h1 className="font-display text-5xl md:text-6xl text-white tracking-widest mb-3">CONTÁCTENOS</h1>
+        <p className="text-pacific">Estamos en Punta Hermosa, Lima - Perú</p>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -121,7 +121,7 @@ export default function Contact() {
 
                   <div>
                     <label className="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-1.5">
-                      Correo Electronico
+                      Correo Electrónico
                     </label>
                     <input
                       type="email"
@@ -162,7 +162,7 @@ export default function Contact() {
                       value={campos.mensaje}
                       onChange={handleChange}
                       rows={5}
-                      placeholder="Escribe tu consulta aqui..."
+                      placeholder="Escribe tu consulta aquí..."
                       className={errores.mensaje ? inputErr : inputOk}
                     />
                     {errores.mensaje && (
@@ -196,7 +196,7 @@ export default function Contact() {
               className="font-display text-2xl tracking-widest mb-7"
               style={{ color: '#0A2239' }}
             >
-              INFORMACION
+              INFORMACIÓN
             </h2>
             <div className="space-y-6">
               {INFO.map(item => (

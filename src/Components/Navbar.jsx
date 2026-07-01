@@ -29,7 +29,7 @@ export default function Navbar() {
           <button
             className="md:hidden text-white p-2 focus:outline-none"
             onClick={() => setOpen(p => !p)}
-            aria-label="Abrir menu"
+            aria-label="Abrir menú"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {open ? (

@@ -9,7 +9,7 @@ const CATEGORIAS = [
   {
     inicial:     'W',
     nombre:      'Wetsuits',
-    descripcion: 'Trajes de neopreno para el frio del Pacifico peruano.',
+    descripcion: 'Trajes de neopreno para el frío del Pacífico peruano.',
   },
   {
     inicial:     'A',
@@ -27,7 +27,7 @@ export default function Home() {
       >
         <div className="relative z-10 max-w-3xl">
           <p className="text-pacific text-xs font-bold uppercase tracking-[4px] mb-5">
-            Punta Hermosa, Lima - Peru
+            Punta Hermosa, Lima - Perú
           </p>
           <h1 className="font-display text-6xl md:text-8xl text-white tracking-widest leading-none mb-6">
             BIENVENIDO A PERUSURF
@@ -40,13 +40,13 @@ export default function Home() {
               to="/tienda"
               className="bg-pacific hover:bg-ocean text-prussian font-bold text-lg px-10 py-4 rounded-full transition-colors duration-200"
             >
-              Ver Catalogo
+              Ver Catálogo
             </Link>
             <Link
               to="/nosotros"
               className="border-2 border-white/50 hover:border-white text-white font-bold text-lg px-10 py-4 rounded-full transition-colors duration-200"
             >
-              Conocenos
+              Conócenos
             </Link>
           </div>
         </div>
@@ -55,10 +55,10 @@ export default function Home() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-4xl md:text-5xl text-center text-prussian tracking-widest mb-3">
-            NUESTRAS CATEGORIAS
+            NUESTRAS CATEGORÍAS
           </h2>
           <p className="text-center text-gray-400 mb-14">
-            Todo lo que necesitas para dominar las olas del Pacifico
+            Todo lo que necesitas para dominar las olas del Pacífico
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {CATEGORIAS.map(cat => (
@@ -89,16 +89,16 @@ export default function Home() {
       >
         <div className="max-w-3xl mx-auto">
           <h3 className="font-display text-4xl md:text-5xl text-white tracking-widest mb-5">
-            LAS MEJORES OLAS DEL PACIFICO
+            LAS MEJORES OLAS DEL PACÍFICO
           </h3>
           <p className="text-white/65 text-lg mb-10">
-            Equipate con los mejores productos de surf disponibles en Peru.
+            Equípate con los mejores productos de surf disponibles en Perú.
           </p>
           <Link
             to="/contacto"
             className="bg-white text-prussian hover:bg-pacific hover:text-white font-bold text-lg px-10 py-4 rounded-full transition-colors duration-200 inline-block"
           >
-            Contactanos
+            Contáctanos
           </Link>
         </div>
       </section>
