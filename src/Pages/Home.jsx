@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import heroBg from '../assets/punta-hermosa.png'
 
 const CATEGORIAS = [
   {
@@ -22,9 +23,10 @@ export default function Home() {
   return (
     <div>
       <section
-        className="relative min-h-[88vh] flex items-center justify-center text-center px-4"
-        style={{ background: 'linear-gradient(135deg, #001233 0%, #0A2239 40%, #176087 80%, #1D84B5 100%)' }}
+        className="relative min-h-[88vh] flex items-center justify-center text-center px-4 bg-cover bg-center"
+        style={{ backgroundImage: `url(${heroBg})` }}
       >
+        <div className="absolute inset-0 bg-gradient-to-br from-[#001233]/85 via-[#0A2239]/75 to-[#176087]/65" />
         <div className="relative z-10 max-w-3xl">
           <p className="text-pacific text-xs font-bold uppercase tracking-[4px] mb-5">
             Punta Hermosa, Lima - Perú
