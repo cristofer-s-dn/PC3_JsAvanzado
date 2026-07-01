@@ -1,8 +1,6 @@
-# 🏄 PERUSURF — Tienda de Surf en Punta Hermosa
+#  PERUSURF — Tienda de Surf en Punta Hermosa
 
-Aplicación web desarrollada con **React + Vite** para una tienda de surf ubicada en Punta Hermosa, Lima - Perú. El proyecto consume una API REST (MockAPI) para mostrar un catálogo de productos de surf con filtros, búsqueda y validación de formularios.
-
-## 📸 Vista Previa
+##  Vista Previa
 
 | Página | Descripción |
 |--------|-------------|
@@ -12,7 +10,7 @@ Aplicación web desarrollada con **React + Vite** para una tienda de surf ubicad
 | **Contacto** | Formulario con validación reactiva e información de contacto |
 | **404** | Página de error personalizada con animaciones de olas |
 
-## 🚀 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 | Tecnología | Versión | Uso |
 |------------|---------|-----|
@@ -22,7 +20,7 @@ Aplicación web desarrollada con **React + Vite** para una tienda de surf ubicad
 | [Tailwind CSS](https://tailwindcss.com/) | 3.4 | Framework de estilos utilitarios |
 | [MockAPI](https://mockapi.io/) | — | API REST para datos de productos |
 
-## ✨ Características
+##  Características
 
 - **SPA con React Router** — Navegación fluida entre páginas sin recargas
 - **Consumo de API REST** — Productos cargados dinámicamente desde MockAPI con `fetch`
@@ -34,7 +32,7 @@ Aplicación web desarrollada con **React + Vite** para una tienda de surf ubicad
 - **Tipografía premium** — Google Fonts (Bebas Neue + Nunito)
 - **Paleta de colores temática** — Tonos oceánicos (Prussian Blue, Pacific, Ocean, Baltic)
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 perusurf-react/
@@ -60,32 +58,15 @@ perusurf-react/
         └── api.js              # Servicio de consumo de API
 ```
 
-## ⚙️ Instalación y Ejecución
+##  Despliegue
 
-### Prerrequisitos
-
-- [Node.js](https://nodejs.org/) v16 o superior
-- npm (incluido con Node.js)
-
-### Pasos
+### Netlify
 
 ```bash
-# 1. Clonar el repositorio
-git clone https://github.com/cristofer-s-dn/PC3_JsAvanzado.git
-
-# 2. Entrar al directorio del proyecto
-cd PC3_JsAvanzado
-
-# 3. Instalar dependencias
-npm install
-
-# 4. Iniciar el servidor de desarrollo
-npm run dev
+LINK: 
 ```
 
-La aplicación estará disponible en `http://localhost:5173`
-
-## 🌐 API REST
+##  API REST
 
 El catálogo de productos consume una API REST alojada en **MockAPI**:
 
@@ -101,15 +82,7 @@ Cada producto contiene:
 - `stock` — Unidades disponibles
 - `imagen` — URL de imagen del producto
 
-## 📜 Scripts Disponibles
-
-| Comando | Descripción |
-|---------|-------------|
-| `npm run dev` | Inicia el servidor de desarrollo con HMR |
-| `npm run build` | Genera el bundle de producción en `/dist` |
-| `npm run preview` | Previsualiza el build de producción |
-
-## 👤 Autor
+##  Autor
 
 **Sergio Dávila**  
 Estudiante de Ingeniería  
